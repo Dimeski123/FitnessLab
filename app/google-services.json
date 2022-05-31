@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727475907411",
+    "project_id": "fitneab-d5e97",
+    "storage_bucket": "fitneab-d5e97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727475907411:android:f713292d0c5f6ab170cfa6",
+        "android_client_info": {
+          "package_name": "com.ndimeski.fitnesslab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727475907411-c6kd446uvlvkb6dnbfu3db2ueim81p3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfaucrsH9myNo4BFkpKtCA7u30s5K3Uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727475907411-c6kd446uvlvkb6dnbfu3db2ueim81p3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
