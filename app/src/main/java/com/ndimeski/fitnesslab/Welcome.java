@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Fragment2 extends Fragment {
+public class Diary extends Fragment {
 
     View view;
 
@@ -16,7 +16,7 @@ public class Fragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_2, container, false);
+        view = inflater.inflate(R.layout.diary, container, false);
         return view;
     }
 }
