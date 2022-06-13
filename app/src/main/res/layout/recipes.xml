@@ -1,18 +1,1008 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment1"
+    tools:context=".Recipes"
     android:background="@color/MainColor">
 
-
-    <TextView
-        android:id="@+id/textView"
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Recepies"
-        android:textColor="#000000"
-        android:textSize="34sp" />
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/proteintxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/HighProtein"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/recepielayout11"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_marginLeft="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/chopped_chilli_chicken_stir_fry_28400_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt11"
+                            android:clickable="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title11"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider11"
+                            android:clickable="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:clickable="false"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal"
+                            android:clickable="false">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp"
+                                android:clickable="false">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt11"
+                                    android:clickable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt11"
+                                    android:clickable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="20min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:clickable="false"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt11"
+                                    android:clickable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt11"
+                                    android:clickable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="10"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout12"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/minute_steaks_with_romesco_salad_14828_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title12"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+                        <View
+                            android:id="@+id/divider12"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="18min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="10"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout13"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/steak_corn_and_red_bean_salad_10606_2" />
+
+                        <TextView
+                            android:id="@+id/tittletxt13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title13"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider13"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="30min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="8"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <TextView
+                android:id="@+id/caltxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/LowCalorie"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/recepielayout21"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/eggs_with_lentils_and_spiced_mint_recipe_158121_2" />
+
+                        <TextView
+                            android:id="@+id/tittletxt21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title21"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider21"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="30min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="11"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout22"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/healthier_yellow_chicken_curry_147092_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title22"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+                        <View
+                            android:id="@+id/divider22"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="35min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="15"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout23"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/hearty_vego_frying_pan_pie_139182_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title23"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+                        <View
+                            android:id="@+id/divider23"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="35min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="5"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout24"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/chicken_cacciatore_stoup_127119_2" />
+
+                        <TextView
+                            android:id="@+id/tittletxt24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title24"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+                        <View
+                            android:id="@+id/divider24"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="1h 50min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="14"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <TextView
+                android:id="@+id/proteintxt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/Vegetarian"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/recepielayout31"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/creamy_vegetarian_pot_pies_recipe_164341_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title31"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider31"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="40min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="13"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout32"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/vegetarian_mushroom_ymeatballsy_169467_2" />
+
+                        <TextView
+                            android:id="@+id/tittletxt32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title32"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider32"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="55min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="14"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/recepielayout33"
+                        android:clickable="true"
+                        android:layout_width="180dp"
+                        android:layout_height="240dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/recipeborder"
+                        android:backgroundTint="@color/PostColor"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/mousaka_mattp_web_copy_173021_1" />
+
+                        <TextView
+                            android:id="@+id/tittletxt33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/Title33"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <View
+                            android:id="@+id/divider33"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:id="@+id/cooktimetxt33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/CookTime"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+                                <TextView
+                                    android:id="@+id/minutestxt33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="2h 25min"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:layout_marginHorizontal="5dp">
+                                <TextView
+                                    android:id="@+id/ingredientstxt33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/Ingredients"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+                                <TextView
+                                    android:id="@+id/numberofingredientstxt33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:text="19"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

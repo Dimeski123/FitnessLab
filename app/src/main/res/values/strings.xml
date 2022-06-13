@@ -1,3 +1,180 @@
 <resources>
     <string name="app_name">FitnessLab</string>
+    <string name="Recipes">Recipes</string>
+    <string name="Home">Home</string>
+    <string name="Exercises">Exercises</string>
+
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="Next">Next</string>
+    <string name="Exit">Exit</string>
+    <string name="Conq">Congratulations!</string>
+    <string name="SignOut">SignOut</string>
+    <string name="Hello">Hello</string>
+    <string name="Achieve">Achieve your dream body and healthy habits</string>
+    <string name="Explore">You can Explore our Recipes and start working out today with our exercise plans</string>
+    <string name="RecipeAdvice">The Recipes are made from nutritionists from all across the globe. Eat healthy, be healthy</string>
+    <string name="ExerciseAdvice">It is recommended to not exercise more than 2 workouts per day because of overheating certain muscles</string>
+    <string name="Register">Register</string>
+    <string name="FirstName">First Name</string>
+    <string name="Surname">Surname</string>
+    <string name="Email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="ForgotPw">Forgot Password?</string>
+    <string name="LoginGoogle">Login with Google</string>
+    <string name="DontCreateAcc">Do nоt want to create an account?</string>
+    <string name="LoginGuest">Login as Guest</string>
+    <string name="Reset">Reset</string>
+
+
+    <string name="FinishAbs">You Finished your Abs Workout!</string>
+    <string name="FinishArms">You Finished your Arms Workout!</string>
+    <string name="FinishChest">You Finished your Chest Workout!</string>
+    <string name="FinishLegs">You Finished your Legs Workout!</string>
+    <string name="FinishBack">You Finished your Back and Shoulders Workout!</string>
+    <string name="FinishWeight">You Finished your Weight-Loss Workout!</string>
+
+    //--Recipes
+    <string name="HighProtein">High Protein Food</string>
+    <string name="Title11">Chopped chilli chicken stir fry</string>
+    <string name="Ingredients11">- 1/4 cup (60ml) sunflower oil\n- 250g purple eggplants, chopped if large\n- 100g pea eggplants (from Asian grocers), blanched\n- 1 bunch spring onion, sliced\n- 1/4 cup (75g) gluten-free chilli paste or chilli sauce\n- 2 long red chillies, thinly sliced\n- 1 bunch Thai basil, leaves picked\n- 500g chicken mince\n- Steamed rice, to serve\n- Fried eggs, to serve</string>
+    <string name="Preparing11">1. Heat 2 tbs oil in a wok or large frypan over medium-high heat. Add eggplants, season and cook, stirring, for 3-4 minutes until golden. Remove from pan and set aside. Return pan to medium-high heat with remaining 1 tbs oil. Cook onion, chilli paste and half the chilli and basil, stirring, for 2-3 minutes until softened. Add chicken and cook, breaking up with a spoon, for 10 minutes or until browned. Return the eggplant to pan and toss to warm through.\n\n2. Divide rice, chicken and eggs among plates. Top with remaining basil and chilli.</string>
+    <string name="Title12">Minute steaks with romesco salad</string>
+    <string name="Ingredients12">- 4 (x 100g) beef minute steaks\n- 1/2 teaspoon smoked paprika (pimenton)\n- 1/4 cup (60ml) olive oil\n- 1kg chat potatoes\n- 200g green beans, trimmed\n- 3 chargrilled capsicums\n- Pinch chilli flakes\n- 1 tablespoon red wine vinegar\n- 3 vine-ripened tomatoes, seeds removed, sliced\n- 50g whole roasted almonds, chopped</string>
+    <string name="Preparing12">1. Rub steaks with paprika and 1 tablespoon oil, then season. Set aside.\n\n2. Place potatoes in a saucepan and cover with cold water. Bring to the boil over medium-high heat, then reduce heat to medium and cook for 12-15 minutes until tender, adding beans for the final 2 minutes. Drain, quarter potatoes and set aside.\n\n3. Meanwhile, place capsicums, chilli, vinegar, one-third of the tomato, 30g almonds and remaining 2 tablespoons oil in a small food processor and whiz until a loose paste. Season to taste, then set dressing aside.\n\n4. Preheat a chargrill or frypan over medium-high heat. Cook the steaks for 30 seconds each side or until just cooked through. Remove from the pan and rest, loosely covered with foil, for 2 minutes.\n\n5. Toss the beans, potato and remaining tomato and almonds with the dressing and season. Divide the Romesco salad among 4 serving plates and serve with steaks.\n\n</string>
+    <string name="Title13">Steak, corn and red bean salad</string>
+    <string name="Ingredients13">- 500g piece lean beef sirloin steak, trimmed of excess fat\n- 1 tablespoon Worcestershire sauce\n- 2 teaspoons ground cumin\n- 1 tablespoon olive oil\n- 1 cup frozen corn kernels\n- 800g canned red kidney beans, rinsed, drained\n- Juice of 1 lemon\n- 2 spring onions, sliced on the diagonal</string>
+    <string name="Preparing13">1.  Place the steak in a bowl and sprinkle over the Worcestershire sauce and 1 teaspoon of the ground cumin. Toss to coat the steak in the mixture.\n\n2. Heat the olive oil in a frypan over medium-high heat. When the pan is hot, add the steak and cook for about 5 minutes each side for medium, or until cooked to your liking. Remove from the heat and set the steak aside in a warm place for a few minutes to rest, then slice.\n\n3. Meanwhile, blanch the corn kernels in a pan of boiling water. Combine the drained kidney beans and corn in a bowl. Add the lemon juice and the remaining teaspoon of ground cumin to the bean mixture and toss to combine.\n\n4. Add the sliced steak and the sliced spring onion to the salad and toss gently to combine.</string>
+
+    <string name="LowCalorie">Low Calorie Food</string>
+    <string name="Title21">Eggs with lentils and spiced mint recipe</string>
+    <string name="Ingredients21">- 2 tsp olive oil, plus extra, to drizzle\n- 300g packet Coles Cauliflower Vegetable Rice\n- 410g can diced tomatoes with garlic and onion\n- 1 red onion, thinly sliced\n- 1/2 cup chopped fresh mint leaves\n- 1/2 tsp ground sumac\n- 1/2 cup drained canned lentils\n- 100g baby spinach\n- 4 eggs\n- 1 tbsp dukkah\n- 130g (1/2 cup) natural yoghurt</string>
+    <string name="Preparing21">1. Heat the oil in a large frying pan over medium heat. Add cauliflower mix. Cook, stirring, for 3 minutes. Add tomatoes. Half-fill empty can with water. Pour into pan. Stir to combine then bring to the boil. Reduce heat to low. Simmer for 10 minutes.\n\n2. Meanwhile, combine the onion, mint and sumac in a small bowl.\n\n3. Stir lentils into hot vegie mixture. Season. Scatter with spinach. Cover. Cook for 1 minute. Make 4 indents in the mixture. Crack an egg into each indent. Cook, covered, for 2-3 minutes or until egg whites are just set.\n\n4. Divide the lentil mixture and eggs among serving plates. Top with mint mixture and a dollop of yoghurt. Drizzle over extra oil and sprinkle with dukkah. Season and serve.</string>
+    <string name="Title22">Healthier yellow chicken curry</string>
+    <string name="Ingredients22">-  2 tsp coconut oil\n- 70g (1/4 cup) yellow curry paste\n- 2 tbsp finely chopped fresh coriander root and stem, plus leaves, to serve\n- 3 tsp finely grated fresh ginger\n-1 stick lemongrass, white part only, finely chopped\n-  270ml can coconut milk\n-  250ml (1 cup) Massel salt reduced chicken style liquid stock\n-  1 tbsp coconut sugar\n-  1 tbsp fish sauce\n-  1 red onion, cut into thin wedges\n-  600g butternut pumpkin, skin on, cut into 5cm-long wedges\n-  500g chicken breast, thinly sliced\n-  200g green beans, trimmed, halved\n-  1 lime, halved\n-  90g bean thread vermicelli noodles, cooked, to serve  </string>
+    <string name="Preparing22">1.  Heat the oil in a large saucepan over medium-high heat. Add the curry paste, coriander root and stem, ginger and lemongrass. Cook, stirring, for 1 minute or until aromatic.\n\n2. Add the coconut milk. Cook, stirring, for 3 minutes or until oil separates. Stir in the stock, sugar and fish sauce. Add the onion and pumpkin. Bring to a simmer. Reduce heat to low. Cook, covered, for 7 minutes. Add the chicken. Cook, covered, for 5 minutes or until chicken is just cooked through. Add the beans. Cook, covered, for 2 minutes or until vegetables are just tender.\n\n3. Squeeze over the juice of half a lime. Cut the remaining lime half into wedges. Sprinkle curry with the coriander leaves and serve with lime wedges and noodles.</string>
+    <string name="Title23">Hearty vego frying-pan pie</string>
+    <string name="Ingredients23">- 400g packet Woolworths Simply Simmer Veggie Mix\n- 450g tomato pasta sauce with herbs\n- 400g can borlotti beans, rinsed, drained\n- 2 tbsp chopped fresh oregano\n- 2 sheets reduced-fat puff pastry, partially thawed\n- </string>
+    <string name="Preparing23">1. Preheat the oven to 200C/180C fan forced. Heat a medium ovenproof frying pan over medium heat. Spray with olive oil. Add vegetablemix and cook, stirring, for 3-4 minutes or until just softened.\n\n2. Add the Napoli sauce and cook, stirring, for 1 minute or until warmed through. Stir in the beans and oregano. Remove from heat.\n\n3. Lay the pastry sheets over the pie filling at alternate angles. Press edges to seal. Fold points inwards to create a decorative edge. Cut 2 small slits in the top of the pie for steam to escape. Bake for 25-30 minutes or until puffed and golden.</string>
+    <string name="Title24">Chicken cacciatore soup</string>
+    <string name="Ingredients24">- 1 tbsp extra virgin olive oil\n- 1kg skinless chicken thigh cutlets\n- 1 brown onion, chopped\n- 1 carrot, finely chopped\n- 2 celery stalks, sliced\n- 200g cup mushrooms, sliced\n- 1/4 cup fresh rosemary leaves, plus extra to serve\n- 2 garlic cloves, crushed\n- 1 cup red wine\n- 700g bottle tomato passata\n- 1 litre Massel salt reduced chicken style liquid stock\n- 250g dried rigatoni pasta\n- 1/2 cup pitted kalamata olives\n- Fresh flat-leaf parsley leaves, chopped, to serve</string>
+    <string name="Preparing24">1. Heat oil in large heavy-based saucepan over high heat. Cook the chicken for 4 minutes each side or until browned. Transfer to a plate.\n\n2. Reduce heat to medium. Add onion, carrot, celery, mushroom and rosemary to pan. Cook, stirring occasionally, for 5 minutes or until vegetables start to brown. Add garlic. Cook for 30 seconds or until fragrant. Add wine. Bring to a simmer. Simmer, uncovered, for 3 minutes or until reduced by half.\n\n3. Add passata, stock and 2 cups water. Stir to combine. Bring to a simmer. Return chicken to pan. Cook, covered, for 45 minutes or until chicken is very tender. Using tongs, transfer chicken to a board.\n\n4. Reduce heat to medium. Add pasta to pan. Cook, covered, for 15 minutes or until pasta is tender.\n\n5. Meanwhile, remove and discard bones from chicken. Using 2 forks, shred meat. Return chicken to pan with olives. Cook for 2 minutes or until heated through. Serve stoup topped with parsley and extra rosemary.</string>
+
+    <string name="Vegetarian">Vegetarian Food</string>
+    <string name="Title31">Creamy vegetarian pot pies</string>
+    <string name="Ingredients31">- 40g butter\n- 1 leek, pale section only, thinly sliced\n- 500g packet chopped pumpkin and sweet potato\n- 2 garlic cloves, crushed\n- 160ml (2/3 cup) Massel Vegetable Liquid Stock\n- 250ml (1 cup) thickened cream\n- 1 tbsp Dijon mustard\n- 200g broccoli, cut into small florets\n- 60g baby spinach\n- 1 tbsp fresh thyme leaves, plus extra, to serve\n- 100g (1 cup) pre-grated 3 cheese blend\n- 2 sheets frozen butter pastry, just thawed\n- 1 egg, lightly whisked</string>
+    <string name="Preparing31">1. Preheat the oven to 220C/200C fan forced. Place a baking tray in the oven to preheat.\n\n2. Melt the butter in a saucepan over medium heat. Add the leek and cook, stirring, for 2 minutes or until softened. Add the pumpkin mixture and garlic. Stir until combined. Pour in the stock and bring to the boil. Reduce heat and simmer, partially covered, for 5 minutes or until the pumpkin and sweet potato are just tender.\n\n3. Stir in the cream and mustard. Simmer for 2 minutes or until reduced slightly. Add the broccoli, spinach and thyme. Cook, stirring often, for 3 minutes or until the spinach wilts. Stir in the cheese and season.\n\n4. Meanwhile, use a 12cm round pastry cutter to cut 2 discs from each pastry sheet.\n\n5. Divide the hot vegetable mixture among four 250ml (1 cup) ovenproof ramekins. Top with the pastry discs. Use a fork to press the edges to seal. Brush with egg then place on preheated tray. Bake for 15 minutes or until pastry puffs and is golden brown. Season and sprinkle with extra thyme to serve.</string>
+    <string name="Title32">Vegetarian mushroom meatballs</string>
+    <string name="Ingredients32">- 1/4 cup extra virgin olive oil\n- 1 onion, chopped\n- 1 bunch fresh flat-leaf parsley, stalks chopped, leaves reserved\n- 3 garlic cloves, crushed\n- 2 tsp dried oregano\n- 1 tbsp chopped fresh thyme leaves\n- 1 1/2 tsp smoked paprika\n- 500g white cup or swiss brown mushrooms\n- 2 tbsp tomato paste\n- 1 cup cooked quinoa\n- 1/3 cup grated parmesan (25g), plus extra to serve\n- 1 egg\n- 500g jar tomato pasta sauce\n- Cooked pasta, to serve</string>
+    <string name="Preparing32">1. Heat oil in a large frying pan over a medium-high heat. Add onion, parsley and season with freshly cracked black pepper and salt. Cook for 3 to 4 minutes or until translucent. Add the garlic, oregano, thyme and paprika and cook for 1 minute or until fragrant.\n\n2. Pulse the mushrooms in a food processor until finely chopped. Add to onion mixture with tomato paste and cook for 8 to 10 minutes or until all the liquid has evaporated and the mushrooms start to carameliseTransfer. to a bowl and chill in the fridge.\n\n3. Preheat oven to 200C/180C fan-forced.\n\n4. Finely chop 2 tablespoons of the parsley leaves. Add to the chilled mushroom mixture with quinoa, parmesan and eggStir. to combine. Roll tablespoons of mixture into balls and arrange on a baking paper-lined oven tray. Brush with oil and bake for 15 to 20 minutes.\n\n5. Heat sauce in a deep frying pan over medium high heat. Simmer for 2 to 3 minutes, then add meatballs to gently coat. Spoon sauce and 4 to 5 meatballs over cooked pasta and sprinkle with extra grated parmesan and fresh parsley leaves. Serve.</string>
+    <string name="Title33">Vegetarian mushroom moussaka</string>
+    <string name="Ingredients33">- 3 (about 1.3kg) eggplants\n- 160ml (2⁄3 cup) extra virgin olive oil\n- 1kg (4-5) desiree potatoes, peeled\n- 600g Swiss brown mushrooms, thinly sliced\n- 1 brown onion, coarsely chopped\n- 6 garlic cloves, crushed\n- 4 fresh thyme sprigs\n- 1/2 tsp ground cinnamon\n- 1/2 tsp ground allspice\n- 60ml (1/4 cup) red wine\n- 500ml (2 cups) tomato passata\n- 150g silverbeet, thick stalks removed, leaves shredded\n\n Creamy bechamel\n- 910ml (32⁄3 cup) milk1/2 tsp ground nutmeg\n- 2 fresh or dried bay leaves\n- 110g butter\n- 115g (3/4 cup) plain flour\n- 90g (1 1/4 cups) shredded parmesan\n- 3 eggs, lightly whisked </string>
+    <string name="Preparing33">1. Preheat the oven to 210°C/190°C fan forced. Line 2 large baking trays with baking paper.\n\n2. Cut the eggplant lengthways into 5mm-thick slices. Brush both sides with half the oil and place on the prepared trays. Sprinkle with salt. Bake for 25-30 minutes or until very tender and golden.\n\n3. Meanwhile, place the potatoes in a saucepan of cold water. Bring to the boil and cook for 15-20 minutes or until just tender. Drain and set aside to cool slightly. Cut into 5mm-thick slices.\n\n4. Heat 1 tbs of remaining oil in a large frying pan over medium-high heat. Add one-third of mushroom. Cook, stirring, for 3-4 minutes or until golden. Transfer to a bowl. Repeat with remaining mushroom and 2 tbs oil in 2 more batches.\n\n5. Heat remaining 1 tbs of oil in the frying pan over medium-high heat. Add onion and cook, stirring occasionally, for 4-5 minutes or until soft. Add garlic, thyme, cinnamon and allspice. Cook for 1 minute or until aromatic. Increase heat to high and stir in the red wine. Cook for 3-4 minutes or until reduced slightly. Return mushroom to pan. Add passata. Bring to the boil. Simmer for 5 minutes or until thickened. Stir in the silverbeet. Cook, stirring for 2-3 minutes or until wilted. Season.\n\n6. Lightly grease a 6cm-deep, 25 x 30cm baking dish with oil. Spoon half the mushroom mixture into the dish. Arrange half the potato slices on top. Top with half the eggplant. Repeat layers with the remaining mushroom mixture, potato and eggplant.\n\n7. To make the bechamel, heat the milk, nutmeg and bay leaves in a saucepan over low heat until almost boiling (do not boil). Strain through a fine sieve into a heatproof jug, discarding solids.\n\n8. Melt the butter in a saucepan over low heat. Gradually add flour and cook, stirring, for 1-2 minutes or until mixture comes together. Remove from the heat. Gradually add the milk, a little at a time, and use a balloon whisk to whisk after each addition until smooth. Return to a medium heat. Add cheese. Whisk continuously for 2-3 minutes or until mixture thickens. Remove from the heat and whisk in the eggs.\n\n9. Pour the bechamel over the eggplant layer. Bake for 45 minutes or until golden. Set aside for 30 minutes to cool slightly before slicing and serving.</string>
+
+
+    <string name="CookTime">CookingTime</string>
+    <string name="Ingredients">Ingredients</string>
+    <string name="Preparing">Preparing</string>
+
+
+    //--Exercises
+    <string name="ExerciseBegginer">Exercises for beginners</string>
+    <string name="AbsBeginner">ABS Workout - Beginner</string>
+    <string name="AbsBeginnerText">- JUMPING JACKS\n- ABDOMINAL CRUNCHES\n- RUSSIAN TWIST\n- MOUNTAIN CLIMBER\n- LEG RAISES\n- CRUNCHES\n- PLANK</string>
+    <string name="AbsBeginnerTime">00:30\nx16\nx20\nx16\nx16\nx20\n00:30</string>
+    <string name="ArmsBeginner">Arms Workout - Beginner</string>
+    <string name="ArmsBeginnerText">- ARM RAISES\n- SIDE ARM RAISES\n- TRICEPS DIPS\n- DIAMOND PUSH-UPS\n- PUSH-UPS\n- PUNCHES\n- INCHWORMS\n- TRICEPS STRETCH LEFT\n- TRICEPS STRETCH RIGHT</string>
+    <string name="ArmsBeginnerTime">00:30\n00:30\nx10\nx6\nx10\n00:30\nx6\n00:20\n00:20</string>
+    <string name="ChestBeginner">Chest Workout - Beginner</string>
+    <string name="ChestBeginnerText">- JUMPING JACKS\n- INCLINE PUSH-UPS\n- PUSH-UPS\n- WIDE PUSH-UPS\n- KNEE PUSH-UPS\n- PUSH-UPS\n- INCLINE PUSH-UPS\n- WIDE PUSH-UPS</string>
+    <string name="ChestBeginnerTime">00:30\nx6\nx6\nx6\nx4\nx6\nx6\nx6</string>
+    <string name="LegsBeginner">Legs Workout - Beginner</string>
+    <string name="LegsBeginnerText">- SIDE HOP\n- SQUATS\n- BACKWARD LUNGE\n- DONKEY KICKS LEFT\n- DONKEY KICKS RIGHT\n- WALL CALF RAISES\n- SQUATS</string>
+    <string name="LegsBeginnerTime">00:30\nx14\nx16\nx16\nx16\nx12\nx12</string>
+    <string name="BackBeginner">Back and Shoulder - Beginner</string>
+    <string name="BackBeginnerText">- JUMPING JACKS\n- ARM RAISES\n- RHOMBOID PULLS\n- SIDE ARM RAISES\n- ARM SCISSORS\n- ARM RAISES\n- RHOMBOID PULLS\n- SIDE ARM RAISES</string>
+    <string name="BackBeginnerTime">00:30\n00:30\nx14\n00:30\n00:30\n00:30\nx14\n00:30</string>
+    <string name="WeightBeginner">Weight Loss - Beginner</string>
+    <string name="WeightBeginnerText">- JUMPING JACKS\n- ROPE JUMPING\n- BURPEES\n- FORWARD LUNGE LEFT\n- FORWARD LUNGE RIGHT\n- MOUNTAIN CLIMBERS\n- ROPE JUMPING</string>
+    <string name="WeightBeginnerTime">00:30\n01:00\nx10\nx10\nx10\nx5\n01:00</string>
+
+    <string name="ExerciseIntermediate">Intermediate exercises</string>
+    <string name="AbsIntermediate">ABS Workout - Intermediate</string>
+    <string name="AbsIntermediateText">- JUMPING JACKS\n- ABDOMINAL CRUNCHES\n- CROSSOVER CRUNCH\n- RUSSIAN TWIST\n- MOUNTAIN CLIMBER\n- BICYCLE CRUNCHES\n- CRUNCHES\n- PLANK\n- LEG RAISES\n- PUSH-UP AND ROTATE\n- ABDOMINAL CRUNCHES\n- SIDE PLANK LEFT\n- SIDE PLANK RIGHT</string>
+    <string name="AbsIntermediateTime">00:30\nx16\nx20\nx20\nx20\nx20\nx20\n00:30\nx12\nx20\nx12\n00:20\n00:20</string>
+    <string name="ArmsIntermediate">Arms Workout - Intermediate</string>
+    <string name="ArmsIntermediateText">- ARM RAISES\n- ARM CIRCLES CLOCKWISE\n- PUNCHING\n- PUSH-UP AND ROTATION\n- MILITARY PUSH-UPS\n- ARM SCISSORS\n- BURPEES\n- TRICEPS STRETCH LEFT\n- TRICEPS STRETCH RIGHT</string>
+    <string name="ArmsIntermediateTime">00:30\n00:30\n00:30\nx12\nx12\n00:30\nx8\n00:20\n00:20</string>
+    <string name="ChestIntermediate">Chest Workout - Intermediate</string>
+    <string name="ChestIntermediateText">- JUMPING JACKS\n- KNEE PUSH-UPS\n- PUSH-UPS\n- WIDE PUSH-UPS\n- INCLINE PUSH-UPS\n- DECLINE PUSH-UPS\n- PUSH-UP AND ROTATION\n- WIDE ARM PUSH-UPS</string>
+    <string name="ChestIntermediateTime">00:30\nx12\nx12\nx12\nx6\nx6\nx8\nx6</string>
+    <string name="LegsIntermediate">Legs Workout - Intermediate</string>
+    <string name="LegsIntermediateText">- JUMPING JACKS\n- SQUATS\n- SUMO SQUATS\n- LUNGES\n- WALL CALF RAISES\n- WALL SIT\n- JUMPING JACKS\n- SQUATS\n- SUMO SQUATS\n- LUNGES\n- WALL CALF RAISES</string>
+    <string name="LegsIntermediateTime">00:30\nx12\nx12\nx14\nx12\n00:30\n00:30\nx12\nx12\nx14\nx12</string>
+    <string name="BackIntermediate">Back and Shoulder - Intermediate</string>
+    <string name="BackIntermediateText">- JUMPING JACKS\n- TRICEPS KICKBACKS\n- INCLINE PUSH-UPS\n- RHOMBOID PULLS\n- HIP HINGE\n- HOVER PUSH-UP\n- SWIMMER AND SUPERMAN\n- INCLINE PUSH-UPS\n- ARM RAISES\n- SIDE ARM RAISES</string>
+    <string name="BackIntermediateTime">00:30\nx14\nx14\nx12\nx10\nx8\nx14\nx14\n00:30\n00:30</string>
+    <string name="WeightIntermediate">Weight Loss - Intermediate</string>
+    <string name="WeightIntermediateText">- JUMPING JACKS\n- ROPE JUMPING\n- BURPEES\n- FORWARD LUNGE LEFT\n- FORWARD LUNGE RIGHT\n- ROPE JUMPING\n- MOUNTAIN CLIMBERS\n- BURPEES\n- ROPE JUMPING\n- WALKING(per day)</string>
+    <string name="WeightIntermediateTime">00:30\n01:00\nx14\nx14\nx14\n01:00\nx5\nx14\n01:00\n60:00</string>
+
+    //--Exercise content
+    <string name="JumpingJacks">Jumping Jacks</string>
+    <string name="AbdominalCrunches">Abdominal Crunches</string>
+    <string name="RussianTwist">Russian Twist</string>
+    <string name="MountainClimber">Mountain Climber</string>
+    <string name="LegRaises">Leg Raises</string>
+    <string name="Crunches">Crunches</string>
+    <string name="Plank">Plank</string>
+    <string name="TricepsDips">Triceps Dips</string>
+    <string name="DiamondPushUp">Diamond Push-Up</string>
+    <string name="PushUps">Push-Ups</string>
+    <string name="Punches">Punches</string>
+    <string name="Inchworms">Inchworms</string>
+    <string name="TricepsStretchLeft">Triceps Stretch Left</string>
+    <string name="TricepsStretchRight">Triceps Stretch Right</string>
+    <string name="Squats">Squats</string>
+    <string name="SumoSquats">SumoSquats</string>
+    <string name="WallCalfRaises">Wall Calf Raises</string>
+    <string name="WallSit">Wall sit</string>
+    <string name="TricepsKickbacks">Triceps Kickbacks</string>
+    <string name="RhomboidPulls">Rhomboid Pulls</string>
+    <string name="HipHinge">Hip Hinge</string>
+    <string name="HoverPushUp">Hover Push-Up</string>
+    <string name="SwimmerAndSuperman">Swimmer and Superman</string>
+    <string name="InclinePushUps">Incline Push-Ups</string>
+    <string name="ArmRaises">Arm Raises</string>
+    <string name="SideArmRaises">Side Arm Raises</string>
+    <string name="WidePushUps">Wide Push-Ups</string>
+    <string name="KneePushUps">Knee Push-Ups</string>
+    <string name="SideHop">Side Hop</string>
+    <string name="BackwardLunge">Backward Lunge</string>
+    <string name="DonkeyKickLeft">Donkey Kick Left</string>
+    <string name="DonkeyKickRight">Donkey Kick Right</string>
+    <string name="ArmScissors">ArmScissors</string>
+    <string name="RopeJumping">Rope Jumping</string>
+    <string name="Burpees">Burpees</string>
+    <string name="ForwardLungeLeft">Forward Lunge Left</string>
+    <string name="ForwardLungeRight">Forward Lunge Right</string>
+    <string name="CrossoverCrunches">Crossover Crunches</string>
+    <string name="BicycleCrunches">Bicycle Crunches</string>
+    <string name="PushUpAndRotate">Push-Up and Rotate</string>
+    <string name="SidePlantLeft">Side Plank Left</string>
+    <string name="SidePlantRight">Side Plank Right</string>
+    <string name="ArmCirclesClockwise">Arm Circles Clockwise</string>
+    <string name="MilitaryPushUps">Military Push-Ups</string>
+    <string name="DeclinePushUps">Decline Push-Ups</string>
+    <string name="Lunges">Lunges</string>
+    <string name="Walking">Walking</string>
+
+    <string name="CommingSoon">More Exercises coming Soon!!</string>
+
+
+    <string name="default_web_client" translatable="false">727475907411-c6kd446uvlvkb6dnbfu3db2ueim81p3e.apps.googleusercontent.com</string>
+
+
+    <color name="Red">#ff0000</color>
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>

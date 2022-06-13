@@ -1,3 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">FitnessLab</string>
+    <string name="Recipes">Рецепти</string>
+    <string name="Home">Дома</string>
+    <string name="Exercises">Вежби</string>
+
+    <string name="Start">Старт</string>
+    <string name="Pause">Пауза</string>
+    <string name="Next">Следно</string>
+    <string name="Exit">Излез</string>
+    <string name="Conq">Честитки!</string>
+    <string name="SignOut">ОдјавиСе</string>
+    <string name="Hello">Здраво</string>
+    <string name="Achieve">Постигнете го телото од соништата и здравата навика за искхрана</string>
+    <string name="Explore">Може да ги истражите нашите рецепти и да почнете со вежбање од денес со помош на нашите планови за вежбање</string>
+    <string name="RecipeAdvice">Рецептите се направени од нутриционисти од целиот свет. Јади здраво, биди здрав</string>
+    <string name="ExerciseAdvice">Се препорачува да не вежбате повеќе од 2 тренинзи дневно поради прегревање на одредени мускули</string>
+    <string name="Register">Регистрирај се</string>
+    <string name="FirstName">Име</string>
+    <string name="Surname">Презиме</string>
+    <string name="Email">И-маил</string>
+    <string name="Password">Лозинка</string>
+    <string name="Login">Најави се</string>
+    <string name="ForgotPw">Ја заборавивте лозинката?</string>
+    <string name="LoginGoogle">Најавете се со Гугл</string>
+    <string name="DontCreateAcc">Не сакате да креирате акаунт?</string>
+    <string name="LoginGuest">Најавете се како гостин</string>
+    <string name="Reset">Ресетирајте</string>
+
+
+
+
+
+
+    <string name="FinishAbs">Ги завршивте вежбите за стомачни</string>
+    <string name="FinishArms">Ги завршивте вежбите за раце</string>
+    <string name="FinishChest">Ги завршивте вежбите за гради</string>
+    <string name="FinishLegs">Ги завршивте вежбите за нозе</string>
+    <string name="FinishBack">Ги завршивте вежбите за грб и рамено</string>
+    <string name="FinishWeight">Ги завршивте вежбите за слабеење</string>
+
+
+    //--Recipes
+    <string name="HighProtein">Храна богата со протеини</string>
+        <string name="Title11">Промешано, сецкано чили пилешко</string>
+            <string name="Ingredients11">- 60мл сончогледово масло\n- 250г модри домати, доколку се големи, сецкани\n- 100г грашак, бланширан\n- Еден сецкан млад кромид\n- 75g чили паста или чили сос\n- 2 долги чили пиперчина ситно сецкани\n- 1 босилек\n- 500г пилешко мелено\n- Варен ориз(за сервирање)\n- Пржено јајце(за сервирање)</string>
+            <string name="Preparing11">1. Загрејте 2 лажици масло во тавче на средна температура. Додадете ги модрите домати и грашокот, зачинете и гответе со непрекинато мешање околу 3-4 минути додека не добиете златеникава боја.  Потоа содржината од тавата преместете ја во друг сад, и тавата вратете ја на оган со 1 лажица масло. Внатре ставете го кромидот, чили пастата или сосот и половина од чили пиперчината. Константно мешајте во наредните 2-3 минути додека смесата не омекне. Потоа додадете го пилешкото и со повремено мешање гответе уште 10 минути, или додека не добие кафеникава боја. Додадете ги модрите домати и грашокот и промешајте се заедно, при што тавчето го тргаме од оган.\n\n2. За сервирање може да се додадат јајце и ориз и за декорација и вкус може да се додадат останатите чили пиперчиња и босилекот.</string>
+        <string name="Title12">Брз стек со Ромеско салата</string>
+            <string name="Ingredients12">- 4 парчиња од по 100г бифтек\n- 1/2 лажица буковска сол\n- 60мл сончогледово или маслиново масло\n- 1кг млади компири\n- 200г излупена боранија\n- 3 печени пиперки\n- малце ситно сецкано чили(„прст“)\n- 1 лажица вински оцет\n- 3 излупени домати без семки\n- 50g бадеми, излупени и иссецкани</string>
+            <string name="Preparing12">1. Протријте го бифтекот со буковка, една лажичка масло и зачинете. Оставете го настрана.\n\n2. Ставете ги компирите во тенчере со ладна вода и ставете ги на оган со средна температура да се варат околу 12-15 минути, или додека не се сварат. Пред крајот додадете ја боранијата. исцедете ги и ставете ги настрана.\n\n3. Во меѓувреме ставете ги печените пиперки, чили, оцетот, една третина од доматите, 30г од бадемите и останатото масло во блендер и блендирајте додека не добиете смеса во облик на паста. Смесата може да се зачинува по желба.\n\n4. Загрејте ја скарата или грил тава на средна температура на огнот. Гответе го бифтекот од двете страни се додека не е готов. Потоа отстранете го бифтекот од оган, и оставете го да одстои 2минути покриен со алуминиумска фолија.\n\n5. Измешајте ги варената боранија и компирите со останатите домати и бадеми и потурете со смесата која ја добивме по блендирањето. Добиената мешавина (Ромеско Салатата) поделете ја во 4 чинии и сервирајте ја со по еден бифтек во секоја чинија.</string>
+        <string name="Title13">Салата со стек, царевка и црвен грав</string>
+            <string name="Ingredients13">- 500г парче говедско филе, иссецкано и отстранети мрсните делови\n- 1 лажица Ворчестершир сос\n- 2 лажици сомелен Ким\n- 1 лажица маслиново масло\n- 1 чаша замрзната царевка\n- 800g конзервиран црвен грав,исцеден\n- Сок од еден лимон\n- 2 млади кромиди иссецкани дијагонално</string>
+            <string name="Preparing13">1. Во сад ставете го филето и попрскајте го со Ворчестершир сосот и една лажичка од мелениот ким. Добро притистене ги сосот и кимот во стекот.\n\n2. Загрејте го маслото во тавче на средна топлина на оган. Откако ќе се загрее додадете го филето и печете по 5минути од страна за да добиете средно печено филе(доколку сакате помалку или повеќе печено, печете по желба). Откако филето ќе се испржи го тргаме од оган и го оставаме во топла просторија да одстои неколку минути и го сечеме на парчиња.\n\n3. Потоа ставете во едно тенџере вода да врие, и откако ќе почне, ставете ги царевката и црвениот грав во тенџерето. Потоа додадете го сокот од лимон и останатиот ким откако ќе ги исцедите царевката и гравот од водата.\n\n4. Послужете во чинија и одозгора ставете го иссецканото филе и сецканиот кромид. Помешајте полека со цел состојките да се соединат.</string>
+
+
+    <string name="LowCalorie">Храна со малце калории</string>
+        <string name="Title21">Јајца со леќа и зачинето со нане</string>
+            <string name="Ingredients21">- 2 лажици маслиново или сончогледово масло\n- 300г вегански ориз\n- 410г лупени домати со лукче и кромид\n- 1 ситно сецкан црвен кромид\n- 1/2 чаша ситно сецкано свежо нане\n- 1/2 лажица сумак\n- 1/2 чаша леќа\n- 100г бејби спанаќ\n- 4 јајца\n- 1 лажица дука\n- 130g неутрален јогурт</string>
+            <string name="Preparing21">1.  На оган со средна температура во големо тавче ставете го маслото и откако ќе загрее додадете го оризот. Гответе, со константно мешање 3 минути и додадете ги доматите. Потоа турете половина чаша вода и промешајте додека не се соедини. Кога водата ќе почне да врија намалете ја температурата и оставете го 10минути да врие.\n\n2. Во меѓувреме ставете ги во сад кромидот, нането и сумакот.\n\n3. Додадете ја леќата во жешката смеса со оризот. Зачинете и додадете го спанаќот. Со капак покријте го тавчето и оставете го околу 1минута. Додадете 4 јајца и гответе уште 2-3минути додека белката не е испржена.\n\n4. Поделете ја смесата во 4 чинии и полијте ја со смесата од кромидот,сумакот и нането и додадете го јогуртот. Може дополнително да се зачини со дуках и да се попрска со малце масло.</string>
+        <string name="Title22">Здраво пилешко со кари</string>
+            <string name="Ingredients22">-  2 лажици кокосово масло\n- 70g кари паста\n- 2 лажици свеж, сецкан кориандер за сервирање\n- 3 лажици рендан ѓумбир\n-1 маточина, само белиот дел ситно сецкан\n-  270мл конзервирано кокосово млеко\n-  250мл Масел сол со намалена вода од пилешко\n-  1 лажичка кокосов шеќер\n-  1 лажица рибин сос\n-  1 црвен кромид крупно сецкан\n-  600г тиква сецкана на 5цм должина\n-  500г пилешки стек, ситно сецкан\n-  200г боранија излупена и преполовена\n-  1 лимон поделен на два дела\n-  90г нудли со конец од грав, зготвени за сервирање  </string>
+            <string name="Preparing22">1.  Во тенчере ставете го маслото и оставете го да се загрее на оган со средна температура. Додадете ја кари пастата, кориандерот, ѓумбирот и маточината. Гответе, мешајќи 1 минута.\n\n2. Додадете го кокосовото млеко. Гответе мешајќи уште 3 минути или се додека маслото не се одделува од храната. Додадете ја солта со пилешки сок, кокосовиот шеќер, сосот од риба, кромидот и тиквата. Кога ќе почне да врие намалете ја температурата, покријте го со капак и оставете го да се готви уште 7минути. Додадете го стекот и гответе уште 5минути, или додека стекот не е зготвен. Потоа се додава боранијата и повторно оставаме уште 2минути.\n\n3. За послужување исцедете половина лимот и другата половина иссецкајте ја. посипајте со кари и кориандер и може да го сервирате со останатиот лимот и нудлите.</string>
+        <string name="Title23">Веганска пита во тавче</string>
+            <string name="Ingredients23">- 400г пакетче зеленчуков микс\n- 450г доматно пире со зачини\n- 400г конзерва борлоти грав, исцеден\n- 2 лажички свежо оригано\n- 2 листови лиснато тесто, делумно одмрзнати </string>
+            <string name="Preparing23">1.  Загрејте ја рерната на 200Ц/180Ц. Настраната ставете на оган тенџере, попрскајте го со масло и ставете го миксот од зеленчук на средна температура да се зготви околу 3-4 минути или додека не омекне.\n\n2. Додадете го доматното пире и промешувајте 1 минута пред да ги додадете гравот и ориганото. Тргнете го тавчето од оган.\n\n3. Отворете го лиснатото тесто и засечете го на краевите малце и додадете од смесата при што затворате со другиот дел. Ставете во го тава и печете во рерна околу 25-30минути, или деодека не добие златеникава боја.</string>
+        <string name="Title24">Супа со пилешко</string>
+            <string name="Ingredients24">- 1 лажица маслиново масло\n- 1кг пилешки подкопан без кожа\n- 1 сецкан кромид\n- 1 ситно сецкан морков\n- 2 сецкани стебленца целер\n- 200г сецкани печурки\n- 1/4 чаша рузмарин, плус за сервирање\n- 2 чешнина од лук\n- 1 чаша црвено вино\n- 700г доматно пире\n- 1л Масел сол со намалена вода од пилешко\n- 250г макарони\n- 1/2 чаша маслинки од каламата\n- Свежи сецкани листови од магдонос за сервирање.</string>
+            <string name="Preparing24">1. Загрејте масло во тенџере на силен оган. Гответе го пилешкото по четири минути од страна или додека не добие златеникава боја. Откако ќе завршите префрлете го на тајнир настрана.\n\n2. Намалете ја температурата. Додадете го кромидот, морковот, целерот, печурките и рузмаринот. Повремето мешајте готвеќи 5минути или додека зеленчукот не добие кафеникава боја. Додадете го лукот. Гответе уште половина минута па додадете го виното. Одкако ќе почне да врија оставете го уште 3минути не покриено, или додека не се преполови содржината.\n\n3. Додадете ги доматното пире,пилешката течност и 2 чаши вода и мешајте додека сето не се соедини. Одкако повторно водата ќе зоврие го додаваме пилешкото и го оставаме да се вари покриено уште 45минути, или додека пилешкото не омекне.\n\n4. Со помош на штипалки отстранете го пилешкото и оставете го настрана. Намалете ја температурата и додадете ги макароните. Гответе уште 15 минути со затворен капак.\n\n5. Во меѓувреме отстранете ги коските од пилешкото и искинете го со виљушка на покрупни делови. Вратете го во тенџерето и додадете ги маслинките. Гответе уште 2минути додека да се загрее и сервирајте со магдонос и рузмарин.</string>
+
+    <string name="Vegetarian">Вегетеријанска храна</string>
+        <string name="Title31">Кремасти вегетеријански пити</string>
+            <string name="Ingredients31">- 40g Путер\n- 1 праз тенко исецкан\n- 500г пакетче од тиква и сладок компир сецкани\n- 2 чешнина лук\n- 160мл Масел сол со намалена вода од пилешко\n- 250мл крем за готвење\n- 1 лажица сенф\n- 200г сецкана брокула\n- 60г бејби спанаќ\n- 1 лажица свежа сецкана мајчина душица\n- 100г сецкан кашкавал\n- 2 лисја полузамрзнато пециво\n- 1 делумно матено јајце</string>
+            <string name="Preparing31">1. Загрејте ја рерната на 220Ц/200Ц. Додадете и хартија за готвење исто така за да се загрее.\n\n2. Стопете го путерот во тенџере на средна температура. Додадете го празот и гответе мешајќи уште 2 минути. Додадете ја мешавината од тиквата и компирите и лукот. Мешајте додека не се соедини. Додадете го пилешкиот сок и оставете го да почне да врие. Затворете го тенчерето и оставете го да врие уште 5минути.\n\n3. Додадете ги кремот за готвење и сенфот. Оставете ги уште 2 минути да вријат и додадете ја брокулата, спанаќот и мајчината душица. Варете уште 3 минути со повремено мешање и додадете го кашкавалот.\n\n4. Тестото исецкајте го на четири дела.\n\n5. Поделете ја смесата на 4 дела и ставете ја во мали огноотпорни чаши. Покриј те ја со тестото и стегнете од страните со помош на виљушка. премачкајте со јајце и ставете ја во претходно загреаната рерна. Печете за одприлика 15минути. Зачинете со мајчина душица</string>
+        <string name="Title32">Вегетеријански топчинња од печурки</string>
+            <string name="Ingredients32">- 1/4 чаша маслиново масло\n- 1 сецкан кромид\n- 1 рака свеж сецкан магдонос\n- 3 чешнина лук\n- 2 лажички суво оригано\n- 1 лажичка свежа сецкана мајчина душица\n- 1 1/2 лажички буковец\n- 500г печурки\n- 2 лажици доматно пире\n- 1 чаша зготвена киноа\n- 1/3 чаша пармезан, плус за сервирање\n- 1 јајце\n- 500г доматно пире во густа состојба\n- Зготвени тестенини,за сервирање</string>
+            <string name="Preparing32">1.  Загрејте масло на средна температура. Додадете го кромидот, магдноносот и зачинете со сол и бибер. Пржете одприлика 3-4 минути и потоа додадете го лукот, ориганото, мајчината душица и буковецот и гответе уште една минута.\n\n2. Во блендер или сецко исечкајте ги ситно печурките и заедно со доматното пире додадете ги во тавчето. Гответе уште 8-10 минути и потоа оставете ги во посебен сад во фрижидер \n\n3. Загрејте ја рерната на 200Ц/180Ц\n\n4. Исецкајте две лажички од магдоносот. Додадете ги во смесата која претходно ја направивме заедно со киноата, пармезанот и јајцето. Измешајте и со помош на лажица оформете мали чофтиња и ставете ги во тава. Оставете ги во рерна да се печат околу 15-20 минути.\n\n5. Додадете ја пастата од домати во тенџере и оставете ја да се свари на средна температура. Потоа додадете ги чофтињата внатре и посипете од сосот со чофтиња врз претходно направената паста.</string>
+        <string name="Title33">Вегетеријанска мусака од печурки</string>
+            <string name="Ingredients33">- 3 (одприлика 1.3кг) модри домати\n- 160ml маслиново масло\n- 1кг излупени компири\n- 600г ситно сецкани печурки\n- 1 сецкан кромид\n- 6 чешнина лук\n- 4 гранчиња свежа мајчина душица\n- 1/2 лажичка мелен цимет\n- 1/2 лажичка црн бибер\n- 60мл црвено вино\n- 500мл паста од домати\n- 150г сребрена репка сецкана\n\n Кремаст бешамел сос\n- 910мл млеко\n- 1/2 лажиче мелено морско оревче\n- 2 свежи или суви ловорови лисја\n- 110г путер\n- 115г бело брашно\n- 90г пармезан\n- 3 благо матени јајца </string>
+            <string name="Preparing33">1. Загрејте ја рерната на 210Ц/190Ц заедно со две тави со хартии за готвење.\n\n2. Исечете ги модрите домати во должина од 5мм. Попрскајте ги со половина од маслото и ставете ги во тавите. Посолете и ставете ги да се печат за 25-30минути.\n\n3. Во меѓувреме ставете ги компирите да се варат 15-20минути и потоа исцедете ги и исецкајте ги во должина од 5мм.\n\n4. Во големо тенџере ставете една лажица од останатото масло и загрејте го на средна температура. Додадете една третина од печурките. Гответе со повремено мешање 3-4 минути. Потоа префрлете ги настрана во сад. Повторете го процесот со останатите 2 третини печурки.\n\n5. Остатокот од маслото загрејте го на средна температура во тавче. Додадете го кромидот и пржете го 4-5минути додека не омекне. Потоа додадете ги лукот, мајчината душица, циметот и црниот бибер. Гответе уште една минута, и потоа зголемете ја температурата и додадете го виното. Гответе 3-4минути и потоа додадете ги печурките и доматното пире. Одкако ќе почне да врие, оставете го 5минути па додадете ја сребрената репка. Гответе уште 2-3минути и посолете.\n\n6. Премачкајте 6цм длабоко 25 x 30цм тавче со масло. Додадете пола од печурките, потоа пола од компирите и на крај модрите домати. Повторете го процесот додека да се дотрошат состојките.\n\n7. За подготовката на бешамелот загрејте ги млекото, морските оревчиња и ловоровиот лист во тенџере на ниска температура додека да дојде до степен на вриење(не да врие). Ставете го огноотпоред сад.\n\n8. Во друго тенџере стопете го путерот на тивок оган и повремено додавајте брашно мешајќи 1-2 минути додека состојките не се соединат. Тргнете го од оган и полека додавајте од млекото мешајќи константно во смесата. Вратете го на оган и додадете го пармезанот. Мешајте континуирано 2-3минути додека смесата не се згусни. Тргнете ја од оган и турете ја во јајцата.\n\n9. Бешамелот истурете го врз мусаката. Печете 45минути. Потоа оставете ја мусаката 30минути на собна температура пред да ја сечете и сервирате.</string>
+
+    <string name="CookTime">Времетраење</string>
+    <string name="Ingredients">Состојки</string>
+    <string name="Preparing">Начин на подготовка</string>
+
+
+    //--Exercises
+    <string name="ExerciseBegginer">Вежби за почетници</string>
+        <string name="AbsBeginner">Стомачни - Почетник</string>
+            <string name="AbsBeginnerText">- JUMPING JACKS\n- ABDOMINAL CRUNCHES\n- RUSSIAN TWIST\n- MOUNTAIN CLIMBER\n- PLANK\n- LEG RAISES</string>
+            <string name="AbsBeginnerTime">- 00:30\nx16\nx20\nx16\nx16\nx20\n00:30</string>
+        <string name="ArmsBeginner">Вежби за раце - Почетник</string>
+            <string name="ArmsBeginnerText">- ARM RAISES\n- SIDE ARM RAISES\n- TRICEPS DIPS\n- DIAMOND PUSH-UPS\n- PUSH-UPS\n- PUNCHES\n- INCHWORMS\n- TRICEPS STRETCH LEFT\n- TRICEPS STRETCH RIGHT</string>
+            <string name="ArmsBeginnerTime">00:30\00:30\nx10\nx6\nx10\n00:30\nx6\n00:20\n00:20</string>
+        <string name="ChestBeginner">Вежби за гради - Почетник</string>
+            <string name="ChestBeginnerText">- JUMPING JACKS\n- INCLINE PUSH-UPS\n- PUSH-UPS\n- WIDE PUSH-UPS\n- KNEE PUSH-UPS\n- PUSH-UPS\n- INCLINE PUSH-UPS\n- WIDE PUSH-UPS</string>
+            <string name="ChestBeginnerTime">00:30\nx6\nx6\nx6\nx4\nx4\nx4\nx4</string>
+        <string name="LegsBeginner">Вежби за нозе - Почетник</string>
+        <string name="LegsBeginnerText">- SIDE HOP\n- SQUATS\n- BACKWARD LUNGE\n- DONKEY KICKS LEFT\n- DONKEY KICKS RIGHT\n- WALL CALF RAISES\n- SQUATS</string>
+            <string name="LegsBeginnerTime">00:30\nx14\nx16\nx16\nx16\nx12\nx12</string>
+            <string name="BackBeginner">Грб и рамено - Почетник</string>
+            <string name="BackBeginnerText">- JUMPING JACKS\n- ARM RAISES\n- RHOMBOID PULLS\n- SIDE ARM RAISES\n- ARM SCISSORS\n- ARM RAISES\n- RHOMBOID PULLS\n- SIDE ARM RAISES</string>
+            <string name="BackBeginnerTime">00:30\n00:30\nx14\nx10\n00:30\n00:30\nx14\nx10</string>
+        <string name="WeightBeginner">Вежби за слабеење - Почетник</string>
+            <string name="WeightBeginnerText">- JUMPING JACKS\n- ROPE JUMPING\n- BURPEES\n- FORWARD LUNGE LEFT\n- FORWARD LUNGE RIGHT\n- MOUNTAIN CLIMBERS\n- ROPE JUMPING</string>
+            <string name="WeightBeginnerTime">00:30\n01:00\nx10\nx10\nx10\nx5\n01:00</string>
+
+    <string name="ExerciseIntermediate">Intermediate exercises</string>
+        <string name="AbsIntermediate">Стомачни - Напредни</string>
+            <string name="AbsIntermediateText">- JUMPING JACKS\n- ABDOMINAL CRUNCHES\n- CROSSOVER CRUNCH\n- RUSSIAN TWIST\n- MOUNTAIN CLIMBER\n- BICYCLE CRUNCHES\n- CRUNCHES\n- PLANK\n- LEG RAISES\n- PUSH-UP AND ROTATE\n- ABDOMINAL CRUNCHES\n- SIDE PLANK LEFT\n- SIDE PLANK RIGHT</string>
+            <string name="AbsIntermediateTime">00:30\nx16\nx20\nx20\nx20\nx20\nx20\n00:30\nx12\nx20\nx12\n00:20\n00:20</string>
+        <string name="ArmsIntermediate">Вежби за раце - Напредни</string>
+            <string name="ArmsIntermediateText">- ARM RAISES\n- ARM CIRCLES CLOCKWISE\n- PUNCHING\n- PUSH-UP AND ROTATION\n- MILITARY PUSH-UPS\n- ARM SCISSORS\n- BURPEES\n- TRICEPS STRETCH LEFT\n- TRICEPS STRETCH RIGHT</string>
+            <string name="ArmsIntermediateTime">00:30\n00:30\n00:30\nx12\nx12\n00:30\nx8\n00:20\n00:20</string>
+        <string name="ChestIntermediate">Вежби за гради - Напредни</string>
+            <string name="ChestIntermediateText">- JUMPING JACKS\n- KNEE PUSH-UPS\n- PUSH-UPS\n- WIDE PUSH-UPS\n- INCLINE PUSH-UPS\n- DECLINE PUSH-UPS\n- PUSH-UP AND ROTATION\n- WIDE ARM PUSH-UPS</string>
+            <string name="ChestIntermediateTime">00:30\nx12\nx12\nx12\nx6\nx6\nx8\nx6</string>
+        <string name="LegsIntermediate">Вежби за нозе - Напредни</string>
+            <string name="LegsIntermediateText">- JUMPING JACKS\n- SQUATS\n- SUMO SQUATS\n- LUNGES\n- WALL CALF RAISES\n- WALL SIT\n- JUMPING JACKS\n- SQUATS\n- SUMO SQUATS\n- LUNGES\n- WALL CALF RAISES</string>
+            <string name="LegsIntermediateTime">00:30\nx12\nx12\nx14\nx12\n00:30\n00:30\nx12\nx12\nx14\nx12</string>
+        <string name="BackIntermediate">Грб и рамено - Напредни</string>
+            <string name="BackIntermediateText">- JUMPING JACKS\n- TRICEPS KICKBACKS\n- INCLINE PUSH-UPS\n- RHOMBOID PULLS\n- HIP HINGE\n- HOVER PUSH-UP\n- SWIMMER AND SUPERMAN\n- INCLINE PUSH-UPS\n- ARM RAISES\n- SIDE ARM RAISES</string>
+            <string name="BackIntermediateTime">00:30\nx14\nx14\nx12\nx10\nx8\nx14\nx14\n00:30\n00:30</string>
+        <string name="WeightIntermediate">Вежби за слабеење - Напредни</string>
+            <string name="WeightIntermediateText">- JUMPING JACKS\n- ROPE JUMPING\n- BURPEES\n- FORWARD LUNGE LEFT\n- FORWARD LUNGE RIGHT\n- ROPE JUMPING\n- MOUNTAIN CLIMBERS\n- BURPEES\n- ROPE JUMPING\n- WALKING(per day)</string>
+            <string name="WeightIntermediateTime">00:30\n01:00\nx14\nx14\nx14\n01:00\nx5\nx14\n01:00\n60:00</string>
+
+    //--Exercise content
+    <string name="JumpingJacks">Jumping Jacks</string>
+    <string name="AbdominalCrunches">Abdominal Crunches</string>
+    <string name="RussianTwist">Russian Twist</string>
+    <string name="MountainClimber">Mountain Climber</string>
+    <string name="LegRaises">Leg Raises</string>
+    <string name="Crunches">Crunches</string>
+    <string name="Plank">Plank</string>
+    <string name="TricepsDips">Triceps Dips</string>
+    <string name="DiamondPushUp">Diamond Push-Up</string>
+    <string name="PushUps">Push-Ups</string>
+    <string name="Punches">Punches</string>
+    <string name="Inchworms">Inchworms</string>
+    <string name="TricepsStretchLeft">Triceps Stretch Left</string>
+    <string name="TricepsStretchRight">Triceps Stretch Right</string>
+    <string name="Squats">Squats</string>
+    <string name="SumoSquats">SumoSquats</string>
+    <string name="WallCalfRaises">Wall Calf Raises</string>
+    <string name="WallSit">Wall sit</string>
+    <string name="TricepsKickbacks">Triceps Kickbacks</string>
+    <string name="RhomboidPulls">Rhomboid Pulls</string>
+    <string name="HipHinge">Hip Hinge</string>
+    <string name="HoverPushUp">Hover Push-Up</string>
+    <string name="SwimmerAndSuperman">Swimmer and Superman</string>
+    <string name="InclinePushUps">Incline Push-Ups</string>
+    <string name="ArmRaises">Arm Raises</string>
+    <string name="SideArmRaises">Side Arm Raises</string>
+    <string name="WidePushUps">Wide Push-Ups</string>
+    <string name="KneePushUps">Knee Push-Ups</string>
+    <string name="SideHop">Side Hop</string>
+    <string name="BackwardLunge">Backward Lunge</string>
+    <string name="DonkeyKickLeft">Donkey Kick Left</string>
+    <string name="DonkeyKickRight">Donkey Kick Right</string>
+    <string name="ArmScissors">ArmScissors</string>
+    <string name="RopeJumping">Rope Jumping</string>
+    <string name="Burpees">Burpees</string>
+    <string name="ForwardLungeLeft">Forward Lunge Left</string>
+    <string name="ForwardLungeRight">Forward Lunge Right</string>
+    <string name="CrossoverCrunches">Crossover Crunches</string>
+    <string name="BicycleCrunches">Bicycle Crunches</string>
+    <string name="PushUpAndRotate">Push-Up and Rotate</string>
+    <string name="SidePlantLeft">Side Plank Left</string>
+    <string name="SidePlantRight">Side Plank Right</string>
+    <string name="ArmCirclesClockwise">Arm Circles Clockwise</string>
+    <string name="MilitaryPushUps">Military Push-Ups</string>
+    <string name="DeclinePushUps">Decline Push-Ups</string>
+    <string name="Lunges">Lunges</string>
+    <string name="Walking">Walking</string>
+
+    <string name="CommingSoon">Повеќе вежби ќе бидат додадени наскоро!!</string>
+
 </resources>
